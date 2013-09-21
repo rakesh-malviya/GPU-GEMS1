@@ -40,7 +40,7 @@ void QGLRenderThread::run()
 {
     GLFrame->makeCurrent();
     GLInit();
-    LoadShader("E:/IISC Studies/CG/Advanced Graphics/Code/Hello_GLSL/Basic.vsh", "E:/IISC Studies/CG/Advanced Graphics/Code/Hello_GLSL/Basic.fsh");
+    LoadShader("../Hello_GLSL/Basic.vsh", "../Hello_GLSL/Basic.fsh");
 
     while (doRendering)
         {
